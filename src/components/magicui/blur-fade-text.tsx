@@ -5,7 +5,7 @@ import { AnimatePresence, motion, Variants } from "framer-motion";
 import { useMemo } from "react";
 
 interface BlurFadeTextProps {
-  text: React.ReactNode;
+  text: string | React.ReactNode; // Change this to accept string or ReactNode
   className?: string;
   variant?: {
     hidden: { y: number };
@@ -17,6 +17,7 @@ interface BlurFadeTextProps {
   yOffset?: number;
   animateByCharacter?: boolean;
 }
+
 const BlurFadeText = ({
   text,
   className,
@@ -30,8 +31,17 @@ const BlurFadeText = ({
     hidden: { y: yOffset, opacity: 0, filter: "blur(8px)" },
     visible: { y: -yOffset, opacity: 1, filter: "blur(0px)" },
   };
+
   const combinedVariants = variant || defaultVariants;
-  const characters = useMemo(() => Array.from(text), [text]);
+
+  // Ensure that text is a string before passing to Array.from
+  const characters = useMemo(() => {
+    if (typeof text === "string") {
+      return Array.from(text);
+    }
+    // Handle non-string `text` types (e.g., numbers, JSX, etc.)
+    return [];
+  }, [text]);
 
   if (animateByCharacter) {
     return (
@@ -49,8 +59,7 @@ const BlurFadeText = ({
                 delay: delay + i * characterDelay,
                 ease: "easeOut",
               }}
-              className={cn("inline-block", className)}
-              style={{ width: char.trim() === "" ? "0.2em" : "auto" }}
+              className={cn(className)}
             >
               {char}
             </motion.span>
@@ -61,24 +70,20 @@ const BlurFadeText = ({
   }
 
   return (
-    <div className="flex">
-      <AnimatePresence>
-        <motion.span
-          initial="hidden"
-          animate="visible"
-          exit="hidden"
-          variants={combinedVariants}
-          transition={{
-            yoyo: Infinity,
-            delay,
-            ease: "easeOut",
-          }}
-          className={cn("inline-block", className)}
-        >
-          {text}
-        </motion.span>
-      </AnimatePresence>
-    </div>
+    <motion.div
+      initial="hidden"
+      animate="visible"
+      exit="hidden"
+      variants={combinedVariants}
+      transition={{
+        delay,
+        ease: "easeOut",
+        duration,
+      }}
+      className={cn(className)}
+    >
+      {text}
+    </motion.div>
   );
 };
 
