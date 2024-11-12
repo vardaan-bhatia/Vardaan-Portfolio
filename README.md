@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! I'm Vardaan Bhatia, a passionate Frontend Developer with experience in web development and design. Here, you'll find details about my work, skills, and projects.
 
-<video controls src="/portfolio.mp4" title="Title"></video>
+<video controls src="/portfolio.mp4" title="Portfolio Video" />
 
 Feel free to explore and get in touch!
 
