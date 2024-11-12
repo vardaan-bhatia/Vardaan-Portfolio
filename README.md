@@ -9,7 +9,7 @@ Feel free to explore and get in touch!
 You can connect with me via:
 
 - [LinkedIn](https://www.linkedin.com/in/vardaan-bhatia-028446203/)
-- [X (formerly Twitter)](https://x.com/vardaanbhatia__)
+- [X](https://x.com/vardaanbhatia__)
 - [Email](mailto:vardaanbhatia55@gmail.com)
 
 Thank you for visiting!
