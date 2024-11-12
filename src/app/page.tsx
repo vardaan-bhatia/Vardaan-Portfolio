@@ -29,6 +29,15 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <BlurFadeText
+                className="max-w-[600px] md:text-xl"
+                delay={BLUR_FADE_DELAY}
+                text={
+                  <a href="#projects" className="text-blue-500 hover:underline">
+                    {DATA.project}
+                  </a>
+                }
+              />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -59,7 +68,7 @@ export default function Page() {
                 href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
-                description={work.description} // Ensure description is always passed
+                description={work.description}
               />
             </BlurFade>
           ))}
@@ -90,6 +99,31 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      {/* certificate section */}
+      <section id="certificates">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <h2 className="text-xl font-bold">Certificates</h2>
+          </BlurFade>
+          {DATA.certificates.map((certificate, id) => (
+            <BlurFade
+              key={certificate.title}
+              delay={BLUR_FADE_DELAY * 14 + id * 0.05}
+            >
+              <ResumeCard
+                href={certificate.url}
+                logoUrl={certificate.logoUrl} // Company logo image
+                altText={certificate.title}
+                title={certificate.title}
+                subtitle={certificate.issuer} // Issuer name
+                period={certificate.date}
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
+
       {/* Skills Section */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -119,9 +153,8 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I've worked on a variety of projects, from simple websites to
+                  complex web applications. Here are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -148,30 +181,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-
-      {/* Certificates Section */}
-      {/* <section id="certificates">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <h2 className="text-xl font-bold">Certificates</h2>
-          </BlurFade>
-          {DATA.certificates.map((certificate, id) => (
-            <BlurFade
-              key={certificate.title}
-              delay={BLUR_FADE_DELAY * 14 + id * 0.05}
-            >
-              <ResumeCard
-                logoUrl={certificate.logoUrl}
-                altText={certificate.title}
-                title={certificate.title}
-                subtitle={certificate.institution}
-                period={certificate.date}
-                description={certificate.description}
-              />
-            </BlurFade>
-          ))}
-        </div>
-      </section> */}
 
       {/* Contact Section */}
       <section id="contact">

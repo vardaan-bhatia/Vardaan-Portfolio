@@ -7,7 +7,8 @@ export const DATA = {
   url: "https://dillion.io",
   location: "India",
   description:
-    "Frontend Developer passionate about learning and building impactful user experiences.",
+    "Frontend Developer with a passion for learning new technologies and creating seamless, impactful user experiences.",
+  project: "Latest projects! 🚀",
   avatarUrl: "/me.jpg",
   skills: [
     "JavaScript",
@@ -101,6 +102,45 @@ export const DATA = {
       end: "2021",
     },
   ],
+  certificates: [
+    {
+      title: "Programming with JavaScript",
+      issuer: "Meta-Coursera",
+      url: "https://drive.google.com/file/d/1Vt0wpAz2XM74PmK0a1N3_2w5O1ZfzDi-/view?usp=drive_link",
+      date: "Sep 2023",
+      logoUrl: "/meta.png",
+    },
+    {
+      title: "Software Development Trainee",
+      issuer: "AMCAT",
+      url: "https://www.myamcat.com/certificate/14096721/software-development-trainee/166",
+      date: "Oct 2023",
+      logoUrl: "/amcat.jpg", // Add company logo image here
+    },
+    {
+      title: "ReactJS: The Complete Guide",
+      issuer: "Infosys Springboard",
+      url: "https://drive.google.com/file/d/1vXEJ8hyhzdx_EDVN1DQ9FcvQ-3wWoZP_/view?usp=drive_link",
+      date: "Nov 2023",
+      logoUrl: "/infosys.jpg", // Add AWS logo image here
+    },
+
+    {
+      title: "Python 3 Programming",
+      issuer: "University of Michigan-Coursera",
+      url: "https://drive.google.com/file/d/18Dno_itGnGo8sFwImUUOYcs0Qw5hkTPM/view?usp=sharing",
+      date: "Jan 2024",
+      logoUrl: "/coursera.jpg", // Add AWS logo image here
+    },
+    {
+      title: "Prodigy Case Competition",
+      issuer: "IIM Bangalore's Vista",
+      url: "https://drive.google.com/file/d/1cwXBYUc_0a8urMpjcnRRHjDjFmQd1BAA/view?usp=sharing",
+      date: "Mar 2020",
+      logoUrl: "/iim.jpg", // Add AWS logo image here
+    },
+  ],
+
   projects: [
     {
       title: "Chat Collect",
