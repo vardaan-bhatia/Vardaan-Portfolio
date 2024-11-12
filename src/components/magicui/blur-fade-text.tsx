@@ -32,7 +32,12 @@ const BlurFadeText = ({
     visible: { y: -yOffset, opacity: 1, filter: "blur(0px)" },
   };
   const combinedVariants = variant || defaultVariants;
-  const characters = useMemo(() => Array.from(text), [text]);
+  const characters = useMemo(() => {
+    if (typeof text === "string") {
+      return Array.from(text);
+    }
+    return []; // Return an empty array if text is not a string
+  }, [text]);
 
   if (animateByCharacter) {
     return (
