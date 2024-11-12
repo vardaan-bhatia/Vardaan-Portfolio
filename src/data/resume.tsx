@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Frontend Developer with a passion for learning new technologies and creating seamless, impactful user experiences.",
   project: "Latest projects! 🚀",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me3.jpg",
   skills: [
     "JavaScript",
     "React",
@@ -94,7 +94,7 @@ export const DATA = {
       end: "2025",
     },
     {
-      school: "Chhatrapati Shahu Ji Maharaj University, Kanpur",
+      school: "Chhatrapati Shahu Ji Maharaj University",
       href: "https://csjmu.ac.in/",
       degree: "Bachelor's in Computer Applications (BCA)",
       logoUrl: "/csjmu.png",
