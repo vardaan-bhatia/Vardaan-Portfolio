@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, FolderDown } from "lucide-react";
 
 export const DATA = {
   name: "Vardaan Bhatia",
@@ -33,12 +33,6 @@ export const DATA = {
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     social: {
-      GitHub: {
-        name: "GitHub",
-        url: "https://github.com/vardaan-bhatia",
-        icon: Icons.github,
-        navbar: true,
-      },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/vardaan-bhatia-028446203/",
@@ -49,6 +43,12 @@ export const DATA = {
         name: "X",
         url: "https://x.com/vardaanbhatia__",
         icon: Icons.x,
+        navbar: true,
+      },
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/vardaan-bhatia",
+        icon: Icons.github,
         navbar: true,
       },
       Medium: {
@@ -147,6 +147,7 @@ export const DATA = {
         "Linklytics is a URL shortener with built-in analytics and Google authentication. Shorten links effortlessly while gaining insights on click data, user locations, and device types all in one streamlined platform.",
       technologies: [
         "React.js",
+        "Context API",
         "Javascript",
         "TailwindCSS",
         "Supabase",

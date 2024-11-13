@@ -10,6 +10,7 @@ import {
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import { FolderDown } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -37,6 +38,8 @@ export default function Navbar() {
           </DockIcon>
         ))}
         <Separator orientation="vertical" className="h-full" />
+
+        {/* Social Links */}
         {Object.entries(DATA.contact.social)
           .filter(([_, social]) => social.navbar)
           .map(([name, social]) => (
@@ -60,6 +63,29 @@ export default function Navbar() {
             </DockIcon>
           ))}
         <Separator orientation="vertical" className="h-full py-2" />
+
+        {/* Download Resume */}
+        <DockIcon>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <Link
+                href="https://drive.google.com/uc?export=download&id=1xrjz3gvCRYjn3GjEqLeXIBhsFNLXK_mb" // Replace with your actual file ID
+                download="Vardaan_Bhatia_Resume.pdf"
+                className={cn(
+                  buttonVariants({ variant: "ghost", size: "icon" }),
+                  "size-12"
+                )}
+              >
+                <FolderDown size={19} />
+              </Link>
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>Download Resume</p>
+            </TooltipContent>
+          </Tooltip>
+        </DockIcon>
+
+        {/* Theme Toggle */}
         <DockIcon>
           <Tooltip>
             <TooltipTrigger asChild>
