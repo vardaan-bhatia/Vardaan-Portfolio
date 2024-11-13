@@ -14,6 +14,17 @@ export const Icons = {
       />
     </svg>
   ),
+  medium: (props: IconProps) => (
+    <svg
+      viewBox="0 0 22 22"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+      style={{ backgroundColor: "white", borderRadius: "1px", padding: "2px" }}
+    >
+      <title>M Icon</title>
+      <path fill="#08090A" d="M4 20V4h3.5l4 6 4-6H19v16h-3v-9l-4 6-4-6v9H4z" />
+    </svg>
+  ),
   x: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>X</title>

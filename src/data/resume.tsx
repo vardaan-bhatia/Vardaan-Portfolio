@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Vardaan Bhatia",
@@ -30,35 +30,31 @@ export const DATA = {
     "Docker",
   ],
 
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    {
-      href: "https://medium.com/@vardaanbhatia55",
-      icon: NotebookIcon,
-      label: "Blog",
-    },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     social: {
       GitHub: {
         name: "GitHub",
         url: "https://github.com/vardaan-bhatia",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/vardaan-bhatia-028446203/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/vardaanbhatia__",
         icon: Icons.x,
-
+        navbar: true,
+      },
+      Medium: {
+        name: "Medium",
+        url: "https://medium.com/@vardaanbhatia55",
+        icon: Icons.medium,
         navbar: true,
       },
       Email: {
@@ -204,7 +200,7 @@ export const DATA = {
     {
       title: "MealMate",
       href: "https://mealmatebyvardaan.vercel.app/",
-      dates: "July 2023 - Present",
+      dates: "July 2024 - Present",
       active: true,
       description:
         "MealMate is a smart food delivery app featuring real-time restaurant listings, customizable menus, and secure payments, enhanced with an AI help bot for personalized support. With location-based services and efficient cart management.",
