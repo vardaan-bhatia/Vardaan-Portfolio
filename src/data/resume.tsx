@@ -4,7 +4,7 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Vardaan Bhatia",
   initials: "VB",
-  url: "https://vardaan.vercel.app/",
+  url: "https://www.vardaanbhatia.com/",
   location: "India",
   description:
     "Frontend Developer who loves learning new tech and building clean, responsive, user-friendly web applications.",
@@ -139,7 +139,7 @@ export const DATA = {
   projects: [
     {
       title: "LinkLytics",
-      href: "https://linklytics.netlify.app/",
+      href: "https://linklytics.online/",
       dates: "Sep 2024 - Present",
       active: true,
       description:
@@ -156,7 +156,7 @@ export const DATA = {
       links: [
         {
           type: "Live",
-          href: "https://linklytics.netlify.app/",
+          href: "https://linklytics.online/",
           icon: <Icons.globe className="size-3" />,
         },
         {
