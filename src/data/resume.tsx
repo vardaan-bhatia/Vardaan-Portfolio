@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, FolderDown } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Vardaan Bhatia",
@@ -136,7 +136,6 @@ export const DATA = {
       logoUrl: "/iim.jpg", // Add AWS logo image here
     },
   ],
-
   projects: [
     {
       title: "LinkLytics",
