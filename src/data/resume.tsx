@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Frontend Developer who loves learning new tech and building clean, responsive, user-friendly web applications.",
   project: "Latest projects! 🚀",
-  avatarUrl: "/me3.jpg",
+  avatarUrl: "/me.jpg",
   skills: [
     "JavaScript",
     "React",
