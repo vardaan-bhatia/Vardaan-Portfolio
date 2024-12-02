@@ -34,6 +34,9 @@ export const DATA = {
     "GitHub",
     "Vercel",
     "Docker",
+    "Postman",
+    "Socket.IO",
+    "WebRTC",
   ],
 
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -78,7 +81,7 @@ export const DATA = {
       href: "https://www.wipro.com/",
       badges: [],
       location: "Greater Noida",
-      title: "Associate - QA Engineer & Developer",
+      title: "Associate - Developer & QA Engineer",
       logoUrl: "/wipro.png",
       start: "March 2022",
       end: "July 2023",
