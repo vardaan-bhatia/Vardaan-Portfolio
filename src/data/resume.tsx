@@ -9,7 +9,11 @@ export const DATA = {
   description:
     "Frontend Developer who loves learning new tech and building clean, responsive, user-friendly web applications.",
   project: "Latest projects! 🚀",
+<<<<<<< HEAD
   avatarUrl: "/me.jpg",
+=======
+  avatarUrl: "/me3.jpg",
+>>>>>>> 80db3fa33c53766ce8cedc894489940941deefee
   skills: [
     "JavaScript",
     "React",
@@ -34,9 +38,12 @@ export const DATA = {
     "GitHub",
     "Vercel",
     "Docker",
+<<<<<<< HEAD
     "Postman",
     "Socket.IO",
     "WebRTC",
+=======
+>>>>>>> 80db3fa33c53766ce8cedc894489940941deefee
   ],
 
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -81,7 +88,11 @@ export const DATA = {
       href: "https://www.wipro.com/",
       badges: [],
       location: "Greater Noida",
+<<<<<<< HEAD
       title: "Associate -  Developer & QA Engineer",
+=======
+      title: "Associate - QA Engineer & Developer",
+>>>>>>> 80db3fa33c53766ce8cedc894489940941deefee
       logoUrl: "/wipro.png",
       start: "March 2022",
       end: "July 2023",
