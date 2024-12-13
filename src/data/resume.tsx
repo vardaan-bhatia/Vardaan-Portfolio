@@ -8,7 +8,7 @@ export const DATA = {
   location: "India",
   description:
     "Frontend Developer who loves learning new tech and building clean, responsive, user-friendly web applications.",
-  project: "Latest projects! 🚀",
+  opentowork: "Open to work and available to join immediately.",
   avatarUrl: "/me.jpg",
   skills: [
     "JavaScript",
@@ -23,13 +23,12 @@ export const DATA = {
     "Mongoose",
     "REST APIs",
     "JWT",
-    "OAuth",
     "Redux Toolkit",
     "Zustand",
     "Tailwind CSS",
     "ShadCN",
     "Material UI",
-    "Aceternity UI",
+    "Supabase",
     "Git",
     "GitHub",
     "Vercel",
@@ -67,10 +66,11 @@ export const DATA = {
         icon: Icons.medium,
         navbar: true,
       },
-      Email: {
-        name: "Email",
-        url: "mailto:vardaanbhatia55@gmail.com",
-        icon: Icons.email,
+
+      Leetcode: {
+        name: "Leetcode",
+        url: "https://leetcode.com/u/vardaan1519/",
+        icon: Icons.leetcode,
         navbar: true,
       },
     },
@@ -82,12 +82,12 @@ export const DATA = {
       href: "https://www.wipro.com/",
       badges: [],
       location: "Greater Noida",
-      title: "Associate - Developer & QA Engineer",
+      title: "Associate - Engineer",
       logoUrl: "/wipro.png",
       start: "March 2022",
       end: "July 2023",
       description:
-        "Worked as a QA Tester (Manual) for multiple clients including Colgate and Johnson & Johnson. Contributed to the development of 'WiLearn,' Wipro's in-house Learning Management System (LMS) platform. Implemented key features such as a customizable dashboard, an interactive course catalog with advanced search and filtering capabilities, allowing users to easily find courses based on topics or certifications, and a dynamic quiz and assessment module providing instant feedback to learners.",
+        "Contributed to the development of 'WiLearn,' Wipro's in-house Learning Management System (LMS), implementing key features like a customizable dashboard, interactive course catalog, and dynamic quiz module. Enhanced UI/UX and reduced page load times by 25%, boosting user engagement by 20%. Performed manual testing for clients like Colgate and Johnson & Johnson, ensuring software reliability and compliance with healthcare standards. Collaborated with developers to improve frontend performance and scalability.",
     },
   ],
   education: [
@@ -296,8 +296,6 @@ export const DATA = {
         },
       ],
       image: "/yt.jpg",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
 } as const;

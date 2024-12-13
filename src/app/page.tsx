@@ -2,6 +2,7 @@ import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
+import { RequestButton } from "@/components/request-button";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -27,17 +28,24 @@ export default function Page() {
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
-                delay={BLUR_FADE_DELAY}
                 text={
-                  <a href="#projects" className="text-blue-500 hover:underline">
-                    {DATA.project}
+                  <a
+                    href="mailto:vardaanbhatia55@gmail.com"
+                    className="block text-inherit"
+                  >
+                    Frontend Developer passionate about learning new
+                    technologies and creating clean, responsive, and
+                    user-friendly web applications. <br />
+                    <span className="text-green-700 dark:text-green-500">
+                      ✉️ Open to work and ready to join immediately!{" "}
+                    </span>
                   </a>
                 }
               />
+
+              <div>
+                <RequestButton href="#projects" text="Latest projects! 🚀" />
+              </div>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -200,14 +208,7 @@ export default function Page() {
                 >
                   LinkedIn
                 </Link>{" "}
-                or{" "}
-                <Link
-                  href={DATA.contact.social.Email.url}
-                  className="text-blue-500 hover:underline"
-                >
-                  Email me
-                </Link>{" "}
-                for any inquiries or just to chat.
+                or for any inquiries or just to chat.
               </p>
             </div>
           </BlurFade>
