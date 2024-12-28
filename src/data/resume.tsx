@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://www.vardaanbhatia.com/",
   location: "India",
   description:
-    "Frontend Developer who loves learning new tech and building clean, responsive, user-friendly web applications.",
+    "Frontend Engineer who loves learning new tech and building clean, responsive, user-friendly web applications.",
   opentowork: "Open to work and available to join immediately.",
   avatarUrl: "/me.jpg",
   skills: [
@@ -82,7 +82,7 @@ export const DATA = {
       href: "https://www.wipro.com/",
       badges: [],
       location: "Greater Noida",
-      title: "Associate - Engineer",
+      title: "Associate",
       logoUrl: "/wipro.png",
       start: "March 2022",
       end: "July 2023",
