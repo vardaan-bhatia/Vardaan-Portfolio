@@ -78,6 +78,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Communiti",
+      href: "https://www.communiti.dev/",
+      badges: [],
+      location: "Bengaluru, Remote",
+      title: "Frontend Developer",
+      logoUrl: "/Communiti.jpg",
+      start: "May 2024",
+      end: "Nov 2024",
+      description:
+        "Collaborated with the founder to develop the frontend for Communiti.dev, focusing on creating a responsive, user-friendly UI with smooth animations and an intuitive layout. Built interactive UI components to enhance user engagement and optimize navigation across devices. Leveraged React, Tailwind CSS, and JavaScript to write scalable, maintainable, and high-performance code. Implemented reusable components, optimized rendering, and integrated dynamic transitions to ensure a seamless user experience.",
+    },
+    {
       company: "Wipro Technologies",
       href: "https://www.wipro.com/",
       badges: [],
