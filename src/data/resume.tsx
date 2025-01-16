@@ -220,6 +220,28 @@ export const DATA = {
       image: "/cumeet.jpg",
     },
     {
+      title: "React-Workflow",
+      href: "https://workflowbyvardaan.vercel.app/",
+      dates: "Dec 2024 - Present",
+      active: true,
+      description:
+        "This project is a workflow visualization tool built with React, TypeScript, and React Flow. It allows users to create, edit, and visualize workflow processes using a drag-and-drop interface.",
+      technologies: ["TypeScript", "React.js", "TailwindCSS", "React Flow"],
+      links: [
+        {
+          type: "Live",
+          href: "https://workflowbyvardaan.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/vardaan-bhatia/Workflow-Assignment",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/workflow.jpg",
+    },
+    {
       title: "ByteWrite",
       href: "https://github.com/vardaan-bhatia/ByteWrite",
       dates: "Nov 2024 - Present",
