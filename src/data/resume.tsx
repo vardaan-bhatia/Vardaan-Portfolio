@@ -225,8 +225,8 @@ export const DATA = {
       dates: "Dec 2024 - Present",
       active: true,
       description:
-        "This project is a workflow visualization tool built with React, TypeScript, and React Flow. It allows users to create, edit, and visualize workflow processes using a drag-and-drop interface.",
-      technologies: ["TypeScript", "React.js", "TailwindCSS", "React Flow"],
+        "This project is a workflow visualization tool built with React, TypeScript, and React Flow. It enables users to create, edit, and visualize workflow processes through an intuitive drag-and-drop interface. In addition to core functionality, the project integrates analytics features using Recharts. ",
+      technologies: ["TypeScript", "React.js", "Recharts", "React Flow"],
       links: [
         {
           type: "Live",
