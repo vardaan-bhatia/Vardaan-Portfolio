@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Frontend Engineer who loves learning new tech and building clean, responsive, user-friendly web applications.",
   opentowork: "Open to work and available to join immediately.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me2.jpg",
   skills: [
     "JavaScript",
     "React",
