@@ -78,10 +78,17 @@ export const DATA = {
       location: "Bengaluru, Remote",
       title: "Frontend Developer",
       logoUrl: "/Communiti.jpg",
-      start: "May 2024",
-      end: "Nov 2024",
-      description:
-        "Collaborated with the founder to develop the frontend for Communiti.dev, focusing on creating a responsive, user-friendly UI with smooth animations and an intuitive layout. Built interactive UI components to enhance user engagement and optimize navigation across devices. Leveraged React, Tailwind CSS, and JavaScript to write scalable, maintainable, and high-performance code. Implemented reusable components, optimized rendering, and integrated dynamic transitions to ensure a seamless user experience.",
+      start: "August 2024",
+      end: "Present",
+    },
+    {
+      company: "Ai Soft Power",
+      href: "www.aisoftpower.in",
+      badges: [],
+      title: "Freelance Software Engineer",
+      logoUrl: "/gloxi_logo.jpeg",
+      start: "August 2023",
+      end: "Present",
     },
     {
       company: "Wipro Technologies",
@@ -92,8 +99,6 @@ export const DATA = {
       logoUrl: "/wipro.png",
       start: "March 2022",
       end: "July 2023",
-      description:
-        "Contributed to the development of 'WiLearn,' Wipro's in-house Learning Management System (LMS), implementing key features like a customizable dashboard, interactive course catalog, and dynamic quiz module. Enhanced UI/UX and reduced page load times by 25%, boosting user engagement by 20%. Performed manual testing for clients like Colgate and Johnson & Johnson, ensuring software reliability and compliance with healthcare standards. Collaborated with developers to improve frontend performance and scalability.",
     },
   ],
   education: [
