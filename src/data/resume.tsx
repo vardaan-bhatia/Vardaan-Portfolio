@@ -85,11 +85,11 @@ export const DATA = {
     },
     {
       company: "Ai Soft Power",
-      href: "www.aisoftpower.in",
+      href: "https://www.aisoftpower.in",
       badges: [],
       location: "Remote",
       title: "Freelance Software Engineer",
-      logoUrl: "/public/gloxi_logo.jpeg",
+      logoUrl: "/gloxi_logo.jpeg",
       start: "August 2023",
       end: "Present",
       description:
