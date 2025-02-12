@@ -80,15 +80,20 @@ export const DATA = {
       logoUrl: "/Communiti.jpg",
       start: "August 2024",
       end: "Present",
+      description:
+        "Collaborated with the founder to develop the frontend for Communiti.dev, focusing on creating a responsive, user-friendly UI with smooth animations and an intuitive layout.",
     },
     {
       company: "Ai Soft Power",
       href: "www.aisoftpower.in",
       badges: [],
+      location: "Remote",
       title: "Freelance Software Engineer",
-      logoUrl: "/gloxi_logo.jpeg",
+      logoUrl: "/public/gloxi_logo.jpeg",
       start: "August 2023",
       end: "Present",
+      description:
+        "Developing and delivering AI-driven software solutions, focusing on scalable web applications and automation tools. ",
     },
     {
       company: "Wipro Technologies",
@@ -99,6 +104,8 @@ export const DATA = {
       logoUrl: "/wipro.png",
       start: "March 2022",
       end: "July 2023",
+      description:
+        "Contributed to the development of 'WiLearn,' Wipro's in-house Learning Management System (LMS), implementing key features like a customizable dashboard, interactive course catalog, and dynamic quiz module. Enhanced UI/UX and reduced page load times by 25%, boosting user engagement by 20%.",
     },
   ],
   education: [
