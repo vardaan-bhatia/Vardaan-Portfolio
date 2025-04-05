@@ -77,7 +77,7 @@ export const DATA = {
       badges: [],
       location: "Bengaluru",
       title: "SDE-UI",
-      logoUrl: "/public/20241212055950_flipkart.avif",
+      logoUrl: "/flip.png",
       start: "March 2025",
       end: "Present",
       description: "Flipkart data platform team via Thinkify Labs",
