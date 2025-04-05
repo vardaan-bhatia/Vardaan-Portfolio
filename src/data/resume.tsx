@@ -72,28 +72,27 @@ export const DATA = {
 
   work: [
     {
+      company: "Flipkart",
+      href: "https://www.flipkart.com/",
+      badges: [],
+      location: "Bengaluru",
+      title: "SDE-UI",
+      logoUrl: "/public/flip.png",
+      start: "March 2025",
+      end: "Present",
+      description: "Flipkart data platform team via Thinkify Labs",
+    },
+    {
       company: "Communiti",
       href: "https://www.communiti.dev/",
       badges: [],
-      location: "Bengaluru, Remote",
+      location: "Remote",
       title: "Frontend Developer",
       logoUrl: "/Communiti.jpg",
       start: "August 2024",
-      end: "Present",
+      end: "March 2025",
       description:
         "Collaborated with the founder to develop the frontend for Communiti.dev, focusing on creating a responsive, user-friendly UI with smooth animations and an intuitive layout.",
-    },
-    {
-      company: "Ai Soft Power",
-      href: "https://www.aisoftpower.in",
-      badges: [],
-      location: "Remote",
-      title: "Freelance Software Engineer",
-      logoUrl: "/gloxi_logo.jpeg",
-      start: "August 2023",
-      end: "Present",
-      description:
-        "Developing and delivering AI-driven software solutions, focusing on scalable web applications and automation tools. ",
     },
     {
       company: "Wipro Technologies",
