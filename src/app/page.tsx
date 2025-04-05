@@ -36,9 +36,9 @@ export default function Page() {
                     Frontend Engineer passionate about learning new technologies
                     and creating clean, responsive, and user-friendly web
                     applications. <br />
-                    <span className="text-green-700 dark:text-green-500">
-                      ✉️ Open to work and ready to join immediately!{" "}
-                    </span>
+                    {/* <span className="text-blue-700 dark:text-blue-500">
+                      ✅ Currently working and not open to new opportunities.
+                    </span> */}
                   </a>
                 }
               />
